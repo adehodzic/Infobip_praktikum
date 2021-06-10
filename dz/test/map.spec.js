@@ -7,7 +7,7 @@ const {triple, havle, size, getWholeName, Vletter, insect} = require("../map.js"
 
 
 
-describe('Havle',function(){
+describe.skip('Havle',function(){
     
     it("Havle [62, 32, 45, 22]", function() {
         expect(havle([62, 32, 45, 22])).to.be.eql([31, 16, 22.5, 11]);
@@ -15,7 +15,7 @@ describe('Havle',function(){
 
 });
 
-describe('Size of string',function(){
+describe.skip('Size of string',function(){
     
     it("for airplane, basilisk, mechanic return 8, 8, 8", function() {
         expect(size(["airplane", "basilisk", "mechanic"])).to.be.eql([8,8,8]);
@@ -27,7 +27,7 @@ describe('Size of string',function(){
 
 });
 
-describe('Whole Name',function(){
+describe.skip('Whole Name',function(){
     
     it("get Whole Name for Ivana, Marko, Muhamed", function() {
         expect(getWholeName([
@@ -47,7 +47,7 @@ describe('Whole Name',function(){
 
 });
 
-describe('Name + letter',function(){
+describe.skip('Name + letter',function(){
     
     it("adding (v) for each letter", function() {
         expect(Vletter("Sandra")).to.be.eql(["Sv", "av", "nv", "dv", "rv", "av"]);
@@ -55,7 +55,7 @@ describe('Name + letter',function(){
 
 });
 
-describe('Insect',function(){
+describe.skip('Insect',function(){
     
     it("should return what the insect likes and multiply the length of the name by 5 to get the legs", function() {
         expect(insect([
@@ -71,7 +71,7 @@ describe('Insect',function(){
 
 });
 
-describe('Triple',function(){
+describe.skip('Triple',function(){
 
 
     it("function", function() {
