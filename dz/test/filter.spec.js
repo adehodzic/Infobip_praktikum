@@ -7,7 +7,7 @@ const { Negative, checkifPersonisOld, WordLenght, isBigEnough1, isBigEnough2 , f
 
 
 
-describe('Negative numbers',function(){
+describe.skip('Negative numbers',function(){
 
 
     it("checking if the number is negative", function(){
@@ -16,7 +16,7 @@ describe('Negative numbers',function(){
 
 });
 
-describe('Filtering out all big values',function(){
+describe.skip('Filtering out all big values',function(){
 
 
     it("numbers bigger then 54", function(){
@@ -29,7 +29,7 @@ describe('Filtering out all big values',function(){
 
 });
 
-describe('check if Person is old',function(){
+describe.skip('check if Person is old',function(){
 
 
     it("checking if the person is over 18 years old", function(){
@@ -39,7 +39,7 @@ describe('check if Person is old',function(){
 });
 
 
-describe('Lenght of words',function(){
+describe.skip('Lenght of words',function(){
 
 
     it("words with lenght higher than 4", function(){
@@ -51,7 +51,7 @@ describe('Lenght of words',function(){
 
 
 
-describe('Searching in array',function(){
+describe.skip('Searching in array',function(){
 
 
     it("for fruits, when an is written, the apple and grapefruit should be returned", function(){
@@ -64,7 +64,7 @@ describe('Searching in array',function(){
 
 });
 
-describe('femaleHorse',function(){
+describe.skip('femaleHorse',function(){
 
 
     it("the sex of the horse should be female", function(){
@@ -90,7 +90,7 @@ describe('femaleHorse',function(){
 
 });
 
-describe('Even numbers',function(){
+describe.skip('Even numbers',function(){
 
 
     it("checking if the number is even", function(){
@@ -99,7 +99,7 @@ describe('Even numbers',function(){
 
 });
 
-describe('Odd numbers',function(){
+describe.skip('Odd numbers',function(){
 
 
     it("checking if the number is odd", function(){
