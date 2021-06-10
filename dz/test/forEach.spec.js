@@ -5,7 +5,7 @@ let should = chai.should;
 
 const animals = require('../forEach').animals;
 
-describe('forEach', function () {
+describe.skip('forEach', function () {
     it('forEach should return dogs and cats whit long hair', function () {
       let longHair = [];
   
